@@ -8,7 +8,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #a7bea9;
 }
 
 .navbar a {
@@ -38,7 +38,7 @@
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(153, 153, 153);
+  background-color: #8fbc8f;
 }
 
 .dropdown-content {
@@ -105,7 +105,7 @@ p {
 
 .forside_image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("splashbilde.svg");
+    url("forside.png");
   aspect-ratio: 16/9;
   height: 100%;
   background-position: center;
@@ -117,8 +117,8 @@ p {
 .forside_text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 55%;
   transform: translate(-50%, -50%);
   color: white;
   gap: 20%;
@@ -136,6 +136,10 @@ p {
   cursor: pointer;
   font-family: "Pushster", cursive;
   font-size: 120%;
+}
+
+.forside_image h1 {
+  color: rgb(255, 255, 255);
 }
 
 .forside_text button:hover {
