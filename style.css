@@ -111,3 +111,41 @@ html {
   background-color: #555;
   color: white;
 }
+
+#first_section .section_wrapper {
+  /*lave grid og splashbillede der kun fylder selve siden */
+  display: grid;
+  height: 100vh;
+}
+
+.section_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section_wrapper h1,
+.section_wrapper img {
+  grid-area: 1 / 1; /* h1 og billede skal placeres ovenpå hinanden */
+}
+
+.section_wrapper h1 {
+  z-index: 1;
+  place-self: center; /*placere h1 ovenpå splashbillede, z-index betyder at h1 skal placeres ovenpå billede */
+}
+
+#second_section {
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem;
+  }
+
+  .section_wrapper .box1 {
+    margin-left: 5%;
+  }
+}
