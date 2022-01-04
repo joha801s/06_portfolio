@@ -67,11 +67,38 @@
   display: block;
 }
 
+.logo img {
+  float: left;
+  padding: 10px;
+  height: 20%;
+  text-align: center;
+}
+
 body,
 html {
   height: 100%;
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Skrift */
+
+h1 {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  font-family: "Pushster", cursive;
+  letter-spacing: 5px;
+  border-bottom: 4px dotted black;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Pushster", cursive;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
 }
 
 /*  Forside */
@@ -94,6 +121,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  gap: 20%;
 }
 
 .forside_text button {
@@ -102,9 +130,12 @@ html {
   display: inline-block;
   padding: 10px 25px;
   color: black;
+  margin-top: 20%;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  font-family: "Pushster", cursive;
+  font-size: 120%;
 }
 
 .forside_text button:hover {
@@ -134,8 +165,92 @@ html {
   place-self: center; /*placere h1 ovenpå splashbillede, z-index betyder at h1 skal placeres ovenpå billede */
 }
 
+.flex-container {
+  display: flex;
+  background-color: #8fbc8f;
+}
+
+.flex-container > button {
+  background-color: #d9e3da;
+  margin: 20px;
+  padding: 26px;
+  font-size: 20px;
+  justify-content: center;
+  border-radius: 25px;
+  /* border: 4px solid black; */
+  /* text-align: center; */
+  cursor: pointer;
+  font-family: "Pushster", cursive;
+}
+
+.fade_container {
+  position: relative;
+  width: 50%;
+}
+
+.portrett {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  max-width: 100%;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.fade_container:hover .portrett {
+  opacity: 0.3;
+}
+
+.fade_container:hover .middle {
+  opacity: 1;
+}
+
+.fade_container button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+@media (min-width: 900px) {
+  .fade_container {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: auto auto;
+    gap: 80px;
+  }
+}
+
+.section_wrapper .box1 {
+  margin-left: 5%;
+}
+
+/* Om meg */
+
 #second_section {
   padding: 2rem;
+}
+
+#second_section img {
+  width: 300px;
+  height: 300px;
+}
+
+p.intro::first-letter {
+  color: #000000;
+  font-size: x-large;
+  font-family: "Pushster", cursive;
 }
 
 @media (min-width: 900px) {
@@ -143,9 +258,63 @@ html {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
   }
+}
 
-  .section_wrapper .box1 {
-    margin-left: 5%;
+.section_wrapper .box1 {
+  margin-left: 5%;
+}
+
+@media (max-width: 785px) {
+  footer {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 700px) {
+  footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+}
+
+/* Tema 2 */
+
+.first_section2 {
+  margin: auto;
+  margin-top: 5%;
+  width: 80%;
+  height: 280px;
+  border: 10px solid #a7bea9;
+  /* background-color: #a7bea9; */
+  padding: 10px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.first_section2 h1 {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 6rem;
+}
+
+@media (min-width: 600px) {
+  #second_section2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    gap: 20px;
+    padding: 50px;
   }
 }
