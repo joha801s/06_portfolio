@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Portfolio</title>
-    <link rel="icon" href="favicon.svg" type="image/gif" sizes="30x30" />
+    <link rel="icon" href="favicon.png" type="image/gif" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,14 +16,13 @@
     />
   </head>
   <header>
-    <div class="burgermenu">
-      <img src="logo.png" class="bm_logo" alt="logo" />
-      <button class="toggle-btn">
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-    </div>
     <nav>
       <div class="navbar">
+        <div class="logo">
+          <!--  <a href="index.html"
+            ><img src="favicon.png" class="logo" alt="logo" -->
+          />
+        </div>
         <a href="om_meg.html">Om meg</a>
         <div class="dropdown">
           <button class="dropbtn">Portfolio</button>
@@ -31,6 +30,7 @@
             <a href="tema2.html">Tema 2</a>
             <a href="tema3.html">Tema 3</a>
             <a href="tema4.html">Tema 4</a>
+            <a href="tema5.html">Tema 5</a>
           </div>
         </div>
         <a href="index.html">Forside</a>
@@ -42,14 +42,72 @@
       <div class="forside_image">
         <div class="forside_text">
           <h1>Portfolio</h1>
-          <p>KEA- multimediedesign- 2021/2022</p>
+          <h2>KEA- multimediedesign- 2021/2022</h2>
           <button onclick="window.location.href='om_meg.html';">Om meg</button>
         </div>
+      </div>
+
+      <div class="flex-container">
+        <button onclick="window.location.href='tema2.html';">
+          Tema 2- grunnleggende web
+        </button>
+        <button onclick="window.location.href='tema3.html';">
+          Tema 3- grunnleggende UX
+        </button>
+        <button onclick="window.location.href='tema4.html';">
+          Tema 4- grunnleggende animasjon
+        </button>
+        <button onclick="window.location.href='tema5.html';">
+          Tema 5- grunnleggende innhold
+        </button>
+      </div>
+
+      <div class="fade_container">
+        <img
+          src="portrett.png"
+          alt="portrett"
+          class="portrett"
+          style="width: 100%"
+        />
+        <div class="middle">
+          <button onclick="window.location.href='om_meg.html';">Om meg</button>
+        </div>
+        <p>
+          Mitt navn er Johanne Nyeggen, jeg er 20 år og går 1. semester på
+          linjen Multimediedesign på KEA. Jeg er født og oppvokst i Oslo, Norge
+          (selvom mange dansker tror jeg snakker svensk), og det var ikke bare
+          enkelt å flytte til et annet land. Det er kulturforskjeller,
+          annerledes språk og normer, jeg er for eksempel aldri sett folk med øl
+          i hånden før klokken 10 på morgenen, men det var før jeg kom til
+          Danmark.
+        </p>
       </div>
     </main>
 
     <footer>
-      <p>Portfolio laget av Johanne Nyeggen</p>
+      <div class="Eksamen">
+        <br />
+        <u>En portfolio av Johanne Nyeggen</u>
+        <br />
+        <p>Eksamen i Multimediedesign</p>
+        <p>Efteråret 2021</p>
+      </div>
+      <div class="kontakt meg">
+        <br />
+        <u>Kontaktinformasjon</u>
+        <br />
+        <p>Krystalgade 6, 1172 København</p>
+        <p>Mobil: +47 97 48 46 90</p>
+        <p>Mail: johanne.nyeggen@gmail.com</p>
+      </div>
+      <div class="sociale medier">
+        <br />
+        <u>SOCIALE MEDIER</u>
+        <br />
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <br />
+      </div>
     </footer>
   </body>
 </html>
