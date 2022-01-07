@@ -587,7 +587,7 @@ button:hover {
 @media (min-width: 500px) {
   #fourth_section4 .section_wrapper {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 15px;
     margin-top: 10px;
@@ -595,11 +595,6 @@ button:hover {
   }
 
   #fourth_section4 .section_wrapper .col1 {
-    grid-column: 1 / span 2;
-    max-width: 100%;
-  }
-
-  #fourth_section4 .section_wrapper .col2 {
     padding-top: 100px;
     margin-top: 20px;
   }
@@ -641,7 +636,7 @@ button:hover {
 
 #fourth_section5 .section_wrapper {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-column-gap: 20px;
   gap: 20px;
   padding-right: 180px;
@@ -650,4 +645,28 @@ button:hover {
   padding-bottom: 20px;
   margin-top: 20px;
   background-color: #a7bea9;
+}
+
+#fourth_section5 .section_wrapper .col3 {
+  max-width: 100%;
+}
+
+#fourth_section5 .section_wrapper .col4 {
+  max-width: 95.5%;
+}
+
+#fifth_section5 .section_wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  gap: 20px;
+  padding-right: 200px;
+  padding-left: 180px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+#fifth_section5 .section_wrapper .col1 {
+  padding-top: 50px;
 }
