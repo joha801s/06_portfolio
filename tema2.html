@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Portfolio</title>
-    <link rel="icon" href="favicon.png" type="image/gif" />
+    <link rel="icon" href="bilder/favicon.png" type="image/gif" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,26 +17,27 @@
   </head>
   <body>
     <header>
-      <div class="burgermenu">
-        <img src="logo.png" class="bm_logo" alt="logo" />
-        <button class="toggle-btn">
-          <ion-icon name="menu-outline"></ion-icon>
-        </button>
+      <div class="logo">
+        <a href="index.html">
+          <div class="favicon">
+            <img src="bilder/favicon.png" />
+          </div>
+        </a>
       </div>
       <nav>
-        <div class="navbar">
-          <a href="om_meg.html">Om meg</a>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
           <div class="dropdown">
-            <button class="dropbtn">Portfolio</button>
-            <div class="dropdown-content">
-              <a href="tema2.html">Tema 2</a>
-              <a href="tema3.html">Tema 3</a>
-              <a href="tema4.html">Tema 4</a>
-              <a href="tema4.html">Tema 5</a>
+            <li><button class="dropbtn">Portfolio</button></li>
+            <div class="dropdown_content">
+              <li><a href="tema2.html">Tema 2</a></li>
+              <li><a href="tema3.html">Tema 3</a></li>
+              <li><a href="tema4.html">Tema 4</a></li>
+              <li><a href="tema5.html">Tema 5</a></li>
             </div>
           </div>
-          <a href="index.html">Forside</a>
-        </div>
+          <li><a href="om_meg.html">Om meg</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -80,7 +81,7 @@
         <div class="section_wrapper">
           <p>Besøk nettsiden her</p>
           <div class="col1">
-          <button onclick="location.href = 'produkter.html'" class="button">
+          <button onclick="window.location.href = 'https://johannenyeggen.com/kea/02_web/04_responsive/responsive_site_v2/'" class="button">
             Responsive site V2
           </button>
         </class>
