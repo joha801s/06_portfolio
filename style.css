@@ -107,6 +107,7 @@ header {
 .burgermenu {
   display: flex;
   justify-content: space-between;
+  position: float;
 }
 
 /* .favicon img {
