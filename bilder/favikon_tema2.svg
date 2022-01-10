@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="200" height="173" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="260" height="260"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="260" height="260" fill="#fcda22"/>
+    <path id="Path_1" data-name="Path 1" d="M109,0c60.2,0,109,49.7,109,111S169.2,222,109,222,0,172.3,0,111,48.8,0,109,0Z" transform="translate(21 19)" fill="#ac13fa"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(33 54)" clip-path="url(#clip-path)">
+      <g transform="translate(-33 -54)">
+        <text id="PB_" data-name="PB
+" transform="translate(28 57)" fill="#fcda22" font-size="130" font-family="PTSans-CaptionBold, PT Sans Caption" font-weight="700"><tspan x="20.535" y="117">PB</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
