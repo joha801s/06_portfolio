@@ -121,7 +121,7 @@ header a:hover,
   position: absolute;
   background-color: #f9f9f9;
   min-width: 10rem;
-  box-shadow: 0px 8px 16px 0px #5F7E7F(255, 0, 0, 0.8);
+  box-shadow: 0px 8px 16px 0px #5f7e7f;
   z-index: 1;
 }
 
@@ -167,7 +167,7 @@ header a:hover,
     background: transparent;
     border: none;
     display: block;
-    height: 2.75;
+    height: 2.75rem;
     font-size: 1.1rem;
     cursor: pointer;
     padding-right: 1.5rem;
@@ -180,8 +180,7 @@ header a:hover,
   }
 
   nav.shown {
-    border-top: 0.063rem solid #5F7E7F(202, 35, 113);
-    padding-top: 1rem;
+    border-top: 0.063rem solid #5f7e7f;
     display: flex;
     flex: 1 1 100%;
     flex-flow: column;
@@ -277,11 +276,6 @@ p {
   color: white;
   text-align: center;
   cursor: pointer;
-  /*   animation-name: puls_kf;
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate; */
 }
 
 .forside_text h1 {
@@ -396,9 +390,6 @@ footer {
     text-align: left;
     padding-left: 50px;
     padding-right: 50px;
-    /*    border-style: solid;
-    border-width: 10px;
-    border-color: #5f7e7f; */
   }
 
   footer h3 {
@@ -484,13 +475,6 @@ footer {
     padding: 25px;
   }
 }
-
-/* .firstSection,
-.firstSection img {
-  object-fit: cover;
-  display: grid;
-  height: 100vh;
-} */
 
 #fourth_section2 .section_wrapper {
   gap: 20px;
