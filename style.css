@@ -37,7 +37,7 @@ header {
 
 @media (min-width: 785px) {
   header {
-    background-color: rgba(163, 17, 52, 0.3);
+    background-color: rgba(145, 163, 141, 0.8);
   }
   ul {
     padding: 0.5%;
@@ -76,14 +76,14 @@ header {
     cursor: pointer;
     /* display: inline-flex; */
     align-items: center;
-    color: #a60832;
+    color: #4ead5b;
     border: none;
     display: block;
   }
 
   .toggle-btn:hover {
     color: white;
-    background: #a60832;
+    background: #5f7e7f;
   }
 
   nav {
@@ -91,8 +91,8 @@ header {
   }
 
   nav.shown {
-    /* border-top: 1px solid #000; */
-    /* padding-top: 1rem; */
+    border-top: 1px solid #000;
+    padding-top: 1rem;
     display: flex;
     justify-content: end;
   }
@@ -238,6 +238,12 @@ html {
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
 }
+
+/* html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+} */
 
 /* Skrift */
 
