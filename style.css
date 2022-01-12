@@ -210,7 +210,7 @@ html {
 /* Skrift */
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: rgb(0, 0, 0);
   font-family: "Pushster", cursive;
   letter-spacing: 5px;
@@ -242,7 +242,7 @@ p {
 
 @media (min-width: 500px) {
   .forside_text h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -286,6 +286,7 @@ p {
 
 .forside_text h1 {
   color: #5f7e7f;
+  font-size: 2.8rem;
 }
 
 .forside_text button:hover {
