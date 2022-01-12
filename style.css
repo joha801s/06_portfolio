@@ -93,7 +93,7 @@ header a {
 
 header nav a {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #5f7e7f;
   text-align: center;
   padding: 14px 16px;
@@ -101,7 +101,7 @@ header nav a {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: none;
   outline: none;
   color: #5f7e7f;
@@ -168,7 +168,7 @@ header a:hover,
     border: none;
     display: block;
     height: 44px;
-    font-size: 17px;
+    font-size: 1rem;
     cursor: pointer;
     padding-right: 24px;
     padding-top: 16px;
@@ -205,20 +205,19 @@ html {
   margin: 0;
   font-family: "Nunito", sans-serif;
   background-color: #ffffff;
-  font-size: 16px;
 }
 
 /* Skrift */
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: rgb(0, 0, 0);
   font-family: "Pushster", cursive;
   letter-spacing: 5px;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: rgb(0, 0, 0);
   font-family: "Pushster", cursive;
 }
@@ -231,7 +230,7 @@ h3 {
 
 p {
   font-family: "Nunito", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /*  Forside */
@@ -239,6 +238,12 @@ p {
 #first_section1 .section_wrapper .bilde {
   width: 100%;
   min-height: 20vh;
+}
+
+@media (min-width: 500px) {
+  .forside_text h1 {
+    font-size: 3rem;
+  }
 }
 
 .forside {
@@ -642,10 +647,6 @@ p {
 
 /*  Tema 4 */
 
-#second_section4 .section_wrapper {
-  padding: 10px;
-}
-
 #fourth_section4 .section_wrapper {
   background-color: rgb(247, 245, 245);
   padding: 10px;
@@ -653,11 +654,26 @@ p {
   margin: 20px;
   grid-gap: 10px;
 }
-@media (min-width: 900px) {
+
+#second_section4 .section_wrapper {
+  padding: 10px;
+}
+@media (min-width: 750px) {
   #second_section4 .col1 {
     display: flex;
     flex-direction: column;
     padding: 32px;
+  }
+
+  #second_section4 .section_wrapper {
+    padding: 10px;
+  }
+
+  #second_section4 .section_wrapper .box_big .col2 p {
+    font-size: 0.9rem;
+  }
+  #second_section4 .section_wrapper .col1 p {
+    font-size: 0.9rem;
   }
 
   .box_big {
